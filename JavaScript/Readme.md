@@ -1,74 +1,15 @@
-# JavaScript
+# JavaScript : [My Notes](https://gentle-thread-194.notion.site/JavaScript-Training-16fe591153f08049bfc0de83d0c00423)
 
-<details>
-  <summary>What's the key difference between the semicolon with and without javascript statement</summary>
+## Table of Contents
 
-In JavaScript, semicolons are used to terminate statements, but JavaScript also has a feature called Automatic Semicolon Insertion (ASI). This feature allows the interpreter to add semicolons automatically in certain situations where they are omitted. Here's the key difference between using a semicolon and relying on ASI:
+- What's the key difference between the semicolon with and without JavaScript?
+- Let - Var - Const : Difference Which - When - Why
+- [Differences Between Arrow Functions And Regular Functions](./Arrow%20Vs%20Regular%20Function/)
 
-### 1. Using a Semicolon Explicitly
+## Resources
 
-- What it does: Ends a statement explicitly, making the code unambiguous.
-- Best for: Avoiding pitfalls caused by ASI and ensuring code behaves as intended.
-- Example:
-
-```javascript
-let x = 5;
-let y = 10;
-console.log(x + y);
-```
-
-<hr>
-
-### 2.Without a Semicolon (Relying on ASI)
-
-- What it does: JavaScript tries to infer where a semicolon is needed and inserts it for you.
-- Risk: ASI can sometimes behave unexpectedly, leading to bugs.
-- Example:
-
-```javascript
-let x = 5;
-let y = 10;
-console.log(x + y);
-```
-
-In this case, the code will work because ASI will insert semicolons correctly.
-
-### 3. Common Pitfalls of ASI
-
-ASI doesn’t always work as intended, especially in edge cases. For instance:
-
-> Case 1: Return Statement
-
-```javascript
-function getValue() {
-  return;
-  {
-    value: 42;
-  }
-}
-```
-
-- Expected Result: { value: 42 }
-- Actual Result: undefined
-- Why? ASI inserts a semicolon after return, making it equivalent to:
-
-```javascript
-return;
-{
-  value: 42;
-}
-```
-
-<hr>
-
-> Case 2: Chained Statements
-
-```javascript
-let x = (5)[(1, 2, 3)].forEach(console.log);
-```
-
-- Expected Result: Logs 5 and 6.
-- Error: `SyntaxError: Unexpected token '['`.
-- Why? ASI doesn’t insert a semicolon after let x = 5, so JavaScript treats the [ as part of the same statement.
-
-</details>
+- [JavaScript Bangla Tutorial : Learn with sumit](https://www.youtube.com/watch?v=vXHefJiJM24&list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy&index=4)
+- [W3 Schools Javscript Basic to Advance](https://www.w3schools.com/js/default.asp)
+- [Javascript Interview Question by Sumonta Saha](https://sumontas-organization.gitbook.io/internship-preparation-2024/javascript-+-react/javascript)
+- [Online Javascript Compiler](https://www.programiz.com/javascript/online-compiler/)
+- [3 Differences Between Arrow Functions And Regular Functions](https://www.youtube.com/watch?v=VPPVoYUNzCk)
