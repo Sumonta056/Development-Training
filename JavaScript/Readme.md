@@ -5,6 +5,7 @@
 - What's the key difference between the semicolon with and without JavaScript?
 - Let - Var - Const : Difference Which - When - Why
 - [Differences Between Arrow Functions And Regular Functions](./Arrow%20Vs%20Regular%20Function/)
+- [Javascript Trick Question ](./Trick%20Question/)
 
 ## Resources
 
