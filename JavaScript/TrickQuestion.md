@@ -29,3 +29,13 @@ let y = "10";
 let z = x + y; // 10010
 ```
 
+```js
+let a = "1";
+function clTrick() {
+  b = "2";
+  let c = "3";
+}
+clTrick();
+console.log(a + b); // 12
+console.log(a + b + c); // ReferenceError: c is not defined
+```

@@ -6,6 +6,7 @@
 - Let - Var - Const : Difference Which - When - Why
 - [Differences Between Arrow Functions And Regular Functions](./Arrow%20Vs%20Regular%20Function/)
 - [Javascript Trick Question ](./Trick%20Question/)
+- 
 
 ## Resources
 
@@ -14,3 +15,5 @@
 - [Javascript Interview Question by Sumonta Saha](https://sumontas-organization.gitbook.io/internship-preparation-2024/javascript-+-react/javascript)
 - [Online Javascript Compiler](https://www.programiz.com/javascript/online-compiler/)
 - [3 Differences Between Arrow Functions And Regular Functions](https://www.youtube.com/watch?v=VPPVoYUNzCk)
+- [JavaScript Event Loop Explorer Live](https://vault-developer.github.io/event-loop-explorer/)
+- [What is “This” Keyword in Javascript?](https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-this-keyword#:~:text=Fig%3A%20JavaScript%20%E2%80%9Cthis%E2%80%9D%20keyword,this%E2%80%9D%20references%20the%20global%20object.)

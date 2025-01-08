@@ -3,6 +3,7 @@ let myObj = {
   regularFunc() {
     console.log(this.x);
   },
+  // Arrow functions do not have their own this
   arrowFunc: () => {
     console.log(this.x);
   },
