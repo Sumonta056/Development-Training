@@ -4,7 +4,7 @@ console.log("Start");
 
 const promise = new Promise(function (resolve, reject) {
   setTimeout(function () {
-    if (condition) {
+    if (condition) {+
       resolve("Promise is resolved");
     } else {
       reject("Failed!");

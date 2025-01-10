@@ -1,7 +1,7 @@
 // JavaScript Synchronous Behaviour
 console.log("Synchronous Behaviour : Running 1")
 console.log("Synchronous Behaviour : Running 2")
-console.log("Synchronous Behaviour : Running 2")
+console.log("Synchronous Behaviour : Running 3")
 
 
 // JavaScript Asynchronous
