@@ -2,7 +2,7 @@
 
 1. First create a typescript + nodejs environment using the blog : [Typescript + NodeJS Blog](https://khalilstemmler.com/blogs/typescript/node-starter-project/)
 2. For setting up eslint, we will use this video : [Eslint Setup](https://www.youtube.com/watch?v=eieTlMwCwWU)
-3. Install eslint and typescript-eslint parser
+3. Install Eslint in your project : [Eslint Installation](https://eslint.org/docs/latest/use/getting-started)
 
 ```bash
 npm init @eslint/config@latest
@@ -19,6 +19,8 @@ npm init @eslint/config@latest
 ```
 
 5. EsLint is created in your project. File is created named `eslint.config.mjs`. Add the following code to the file (Adding some rules)
+
+Some Common Rules ES Lint Rules: [ESLint Rules](https://eslint.org/docs/latest/rules/)
 
 ```javascript
 import pluginJs from "@eslint/js";
@@ -49,7 +51,7 @@ export default [
 ];
 ```
 
-6. Now add the following script to your `package.json` file
+1. Now add the following script to your `package.json` file
 
 ```json
 "scripts": {
@@ -64,4 +66,4 @@ export default [
 npm run lint
 ```
 
-8. If you want to directly show error in your code editor, you can install the eslint extension in your code editor.
+8. If you want to directly show error in your code editor, you can install the [Es Lint Extenstion]() in your code editor.
