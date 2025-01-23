@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { CreateUserDto } from "../body-query-params/dtos/CreateUser.dto";
-import { CreateUserQueryParams } from "../body-query-params/type/query-params";
 import { CreateUserParams } from "../body-query-params/params/CreateUserId";
+import { CreateUserQueryParams } from "../body-query-params/type/query-params";
 import { User } from "../body-query-params/type/response";
 
 export function getUsers(req: Request, res: Response) {
@@ -22,11 +22,13 @@ export function createUsers(
   req.query.loginAfterCreate = true;
   // CreateUserParams helps to set the id as params
   req.params.id = 123;
+  req.session;
 
   //send the response based on User type
   res.status(201).send({
-    id: 123,
-    username: "John Doe",
+    id: req.params.id,
+    username: req.body.username,
     email: "sumonta@gmail.com",
   });
 }
+
