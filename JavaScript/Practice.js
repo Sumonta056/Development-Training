@@ -3,3 +3,4 @@ const details = (id,age) => {
 }
 
 details(101, 22); // Id: 101, Age: 22
+
